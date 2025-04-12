@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/font.css">
+    <link rel="stylesheet" href="./src/efects.css">
+    <link rel="stylesheet" href="./src/responsiveness.css">
+    <link rel="shortcut icon" href="./src/imagens/download.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./src/imagens/download.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#planos">Planos</a>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home-page">
+        <div class="content">
+            <h1>SUPERE SEUS LIMITES</h1>
+            <h2>TRANSFORME SEU CORPO</h2>
+            <a class="btn" href="#contato">AGENDE UMA AULA GRÁTIS</a>
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="cards">
+            <div class="feature-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Equipamentos Modernos</h3>
+                <p>Tecnologia de ponta para o seu treino</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-user-friends"></i>
+                <h3>Personal Trainers</h3>
+                <p>Profissionais especializados</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>Horários</h3>
+                <p>De segunda a sábado<br>das 5h30 às 22h</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="about-content">
+            <h3>SOBRE NÓS</h3>
+            <p>Somos mais que uma academia. Somos um centro de transformação onde cada treino é uma oportunidade de superar limites e alcançar resultados extraordinários.</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-card">
+                <h2>MISSÃO</h2>
+                <p>transformar vidas através do fitness</p>
+            </div>
+
+            <div class="about-card">
+                <h2>VISÃO</h2>
+                <p> ser referência em resultados</p>
+            </div>
+
+            <div class="about-card">
+                <h2>VALORES</h2>
+                <p>excelência, dedicação e resultados</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="planos" class="plans">
+        <h3>PLANOS</h3>
+        <div class="cards-plans">
+            <div class="item top">
+                <h2 class="size">Mensal</h2>
+                <h2 class="price1">R$ 99,90</h2>
+                <ul class="info-plans">
+                    <li>Acesso toral à academia</li>
+                    <li>Aulas em grupo</li>
+                    <li class="last-line">Avaliação física</li>
+                </ul>
+                <div>
+                    <a href="#contato" class="plan-btn">Começar Agora</a>
+                </div>
+            </div>
+
+            <div class="item centro top">
+                <h2 class="size">Trimestral</h2>
+                <h2 class="price">R$ 89,90</h2>
+                <p class="month">por mês</p>
+                <ul class="info-plans">
+                    <li>Todos os benefícios do plano mensal</li>
+                    <li>Desconto de 10%</li>
+                    <li>1 sessão com personal trainer</li>
+                </ul>
+                <div>
+                    <a href="#contato" class="plan-btn">Começar Agora</a>
+                </div>
+            </div> 
+            <div class="item bottom">
+                <h2 class="size">Anual</h2>
+                <h2 class="price">R$ 79,90</h2>
+                <p class="month">por mês</p>
+                <ul class="info-plans">
+                    <li>Todos os benefícios anteriores</li>
+                    <li>Desconto de 20%</li>
+                    <li>2 sessões com personal trainer</li>
+                </ul>
+                <div>
+                    <a href="#contato" class="plan-btn">Começar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="classes">
+        <h3 class="classes-title">Nossas Aulas</h3>
+        <div class="classes-cards">
+            <div class="item-class">
+                <img src="./src/imagens/x-cuidados-que-voce-deve-ter-na-musculacao-Magnus-Personal-Trainer.png" alt="musculação">
+                <h3>Musculação</h3>
+                <p>Treinos personalizados para seus objetivos</p>
+            </div>
+
+            <div class="item-class">
+                <img src="./src/imagens/pexels-leonardho-1552249.jpg" alt="CrossFit">
+                <h3>CrossFit</h3>
+                <p>Treinos intensos e funcionais</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h3 class="contact-title">Contato</h3>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <input class="form" type="text" name="nome" placeholder="Nome" required> 
+                    <input class="form" type="email" name="email" placeholder="Email" required>
+                    <input class="form" type="tel" name="telefone" placeholder="Telefone" required>
+                    <textarea class="form text-area" name="mensagem" placeholder="Mensagem" required></textarea>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Av. xxxxxx, xxxx<br>xxxxx - xxxx</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(11) 99999-9999</p>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>conato@powerfit.com</p>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
