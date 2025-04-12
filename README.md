@@ -43,7 +43,7 @@ O projeto está otimizado para **diferentes resoluções de tela**, incluindo:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/PowerFit.git
+git clone https://github.com/name-All4n/PowerFit.git
 ```
 
 2. Navegue até o diretório do projeto:
